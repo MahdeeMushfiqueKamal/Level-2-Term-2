@@ -72,7 +72,7 @@ public:
         }
         sort(edgeList.begin(),edgeList.end());
 
-        for(int i=0;i<edgeList.size();i+=2){
+        for(int i=0;i<edgeList.size();i++){
             //debugging Edgelist
             //cout<<edgeList[i].first<<" ,("<<edgeList[i].second.first<<","<<edgeList[i].second.second<<")\n";
             int u = edgeList[i].second.first;
@@ -84,7 +84,7 @@ public:
                 ans+=w;
             }
         }
-        cout<<"Cost of the minimum spanning tree :"<<ans<<endl;
+        //cout<<"Cost of the minimum spanning tree :"<<ans<<endl;
         cout<<"List of edges selected by Kruskal's: {";
         for(int i=0;i<MST.size()-1;i++)cout<<"("<<MST[i].first<<","<<MST[i].second<<"),";
         cout<<"("<<MST[N-2].first<<","<<MST[N-2].second<<")}\n";
