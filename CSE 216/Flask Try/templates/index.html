@@ -9,7 +9,7 @@
         </div>
         <div class="col-md-7">
             <div class="card-body">
-                <h1> Combined Admission Test of
+                <h1> Combined Admission of
                     BUET, CUET, KUET & RUET!</h1>
                 <h3>Session : 2021-2022</h3>
 
@@ -34,9 +34,25 @@
 
 <div class="buffer" style="min-height: 1rem;"></div>
 <div class="card">
-    <div class="card-body">
-        <h2> Important Info</h2>
-        <p>{{ r }}</p>
+    
+    <div class="card-body" >
+        <h2> Available Subjects in Universities  </h2>
+        <div class="card-body" style="margin-left:30px;">
+            <table class="table table-striped" >
+            
+                {% for row in context %}
+                <tr>
+                    <td>{{row[0]}} </td>  <td>{{row[1]}}  </td>
+                </tr>
+                    
+                {% endfor %}
+    
+            </table>
+        </div>
+        <p>
+
+            
+        </p>
     </div>
 </div>
 {% endblock %}

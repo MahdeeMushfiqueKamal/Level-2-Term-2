@@ -16,7 +16,9 @@ LE,Lather Engineering
 MSE,Material Science and Engineering
 ME,Mechanical Engineering
 MIE,Mechatronics and Industrial Engineering
+MME,Materials and Metallurgical Engineering
 MTE,Mechatronics Engineering
+NAME,Naval Architecture and Marine Engineering
 TE,Textile Engineering
 PME,Petrolium and Mining Engineering
 URP,Urbal and Regional Planning
